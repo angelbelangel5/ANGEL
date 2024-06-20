@@ -1,19 +1,22 @@
 import styled from 'styled-components';
 
-export const ProjectsContainer = styled.section`
-  padding: 60px 20px;
+export const ProjectsContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 20px;
   background-color: #f0f0f0;
-  color: #1a1a2e;
-  text-align: center;
 `;
 
 export const ProjectCard = styled.div`
   background-color: #ffffff;
-  padding: 20px;
-  margin: 20px 0;
-  border-radius: 8px;
+  border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  overflow: hidden;
+  width: 300px;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  
   &:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -22,17 +25,18 @@ export const ProjectCard = styled.div`
 
 export const ProjectImage = styled.img`
   width: 100%;
-  height: auto;
-  border-radius: 8px;
+  height: 200px;
+  object-fit: cover;
 `;
 
 export const ProjectTitle = styled.h3`
-  margin: 0;
   font-size: 1.5em;
-  color: #0f3460;
+  color: #16213e;
+  margin: 20px;
 `;
 
 export const ProjectDescription = styled.p`
   font-size: 1em;
-  margin-top: 10px;
+  color: #4a4a4a;
+  margin: 20px;
 `;
