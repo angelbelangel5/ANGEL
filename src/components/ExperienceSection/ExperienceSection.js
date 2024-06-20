@@ -17,7 +17,7 @@ const experiences = [
 ];
 
 const ExperienceSection = () => (
-  <ExperienceContainer>
+  <ExperienceContainer id="experience">
     <h2>Experience</h2>
     {experiences.map((experience, index) => (
       <ExperienceItem key={index}>
