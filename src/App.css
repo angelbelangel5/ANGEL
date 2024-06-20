@@ -44,8 +44,20 @@ body {
 
 .App {
   text-align: center;
+  overflow-x: hidden; /* Prevent horizontal scroll */
 }
+
 
 h2, p {
   margin: 0;
 }
+
+
+
+
+
+
+
+
+
+

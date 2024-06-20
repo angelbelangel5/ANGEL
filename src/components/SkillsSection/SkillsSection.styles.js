@@ -24,6 +24,13 @@ export const SkillCard = styled.div`
   }
 `;
 
+export const SkillIcon = styled.img`
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 15px;
+`;
+
 export const SkillName = styled.h3`
   font-size: 1.5em;
   color: #e94560;
