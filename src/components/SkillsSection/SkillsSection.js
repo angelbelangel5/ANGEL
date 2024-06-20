@@ -4,7 +4,7 @@ import { SkillsContainer, SkillList, SkillItem } from './SkillsSection.styles';
 const skills = ['JavaScript', 'React', 'CSS', 'HTML', 'Git', 'Responsive Design'];
 
 const SkillsSection = () => (
-  <SkillsContainer>
+  <SkillsContainer id="skills">
     <h2>Skills</h2>
     <SkillList>
       {skills.map((skill, index) => (
