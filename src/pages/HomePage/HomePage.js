@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from '../../components/Navbar';
 import Header from '../../components/Header';
 import BioSection from '../../components/BioSection';
 import ProjectsSection from '../../components/ProjectsSection';
@@ -7,6 +8,7 @@ import ExperienceSection from '../../components/ExperienceSection';
 
 const HomePage = () => (
   <div>
+    <Navbar />
     <Header />
     <BioSection />
     <ProjectsSection />
