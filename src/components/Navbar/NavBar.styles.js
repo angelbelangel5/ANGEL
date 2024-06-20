@@ -16,6 +16,7 @@ export const NavItem = styled.a`
   margin: 0 15px;
   text-decoration: none;
   font-size: 1.2em;
+  transition: color 0.3s ease-in-out;
   &:hover {
     color: #e94560;
   }
