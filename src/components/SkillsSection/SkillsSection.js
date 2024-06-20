@@ -2,11 +2,13 @@ import React from 'react';
 import { SkillsContainer, SkillCard, SkillName, SkillLevel } from './SkillsSection.styles';
 
 const skills = [
-  { name: 'JavaScript', level: 'Advanced' },
-  { name: 'React', level: 'Advanced' },
-  { name: 'CSS', level: 'Intermediate' },
-  { name: 'HTML', level: 'Advanced' },
-  { name: 'Node.js', level: 'Intermediate' }
+  { name: 'ReactJs', level: 'Advanced' },
+  { name: 'Reactnative', level: 'Advanced' },
+  { name: 'Express', level: 'Intermediate' },
+  { name: 'Mongodb', level: 'Advanced' },
+  { name: 'Node.js', level: 'Intermediate' },
+  { name: 'Typescript', level: 'Intermediate' },
+  { name: 'Javascript', level: 'Intermediate' },
 ];
 
 const SkillsSection = () => (

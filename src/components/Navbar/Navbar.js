@@ -1,12 +1,13 @@
 import React from 'react';
 import { NavContainer, NavItem } from './Navbar.styles';
 
-const Navbar = () => (
+const Navbar = ({ onNavClick }) => (
   <NavContainer>
-    <NavItem href="#home">Home</NavItem>
-    <NavItem href="#projects">Projects</NavItem>
-    <NavItem href="#skills">Skills</NavItem>
-    <NavItem href="#experience">Experience</NavItem>
+    <NavItem onClick={() => onNavClick('home')}>Home</NavItem>
+    <NavItem onClick={() => onNavClick('bio')}>Bio</NavItem>
+    <NavItem onClick={() => onNavClick('projects')}>Projects</NavItem>
+    <NavItem onClick={() => onNavClick('skills')}>Skills</NavItem>
+    <NavItem onClick={() => onNavClick('experience')}>Experience</NavItem>
   </NavContainer>
 );
 
