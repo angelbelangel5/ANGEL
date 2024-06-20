@@ -1,7 +1,7 @@
 import React from 'react';
 import { ProjectsContainer, ProjectCard, ProjectImage, ProjectTitle, ProjectDescription } from './ProjectsSection.styles';
-import project1Image from '../../assets/project1.jpg';
-import project2Image from '../../assets/project2.jpg';
+import project1Image from '../../assets/project1.jpg.png';
+import project2Image from '../../assets/project2.jpg.png';
 
 const projects = [
   { title: 'Project One', description: 'A wonderful project that solves problem X using technology Y.', image: project1Image },
