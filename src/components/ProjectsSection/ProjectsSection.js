@@ -1,23 +1,20 @@
 import React from 'react';
 import { ProjectsContainer, ProjectCard, ProjectImage, ProjectTitle, ProjectDescription } from './ProjectsSection.styles';
-import project1Image from '../../assets/project1.jpg.png';
-import project2Image from '../../assets/project2.jpg.png';
-
-const projects = [
-  { title: 'Project One', description: 'A wonderful project that solves problem X using technology Y.', image: project1Image },
-  { title: 'Project Two', description: 'An amazing project that enhances user experience with feature Z.', image: project2Image },
-];
+import project1 from '../../assets/project1.jpg.png';
+import project2 from '../../assets/project2.jpg.png';
 
 const ProjectsSection = () => (
   <ProjectsContainer id="projects">
-    <h2>Projects</h2>
-    {projects.map((project, index) => (
-      <ProjectCard key={index}>
-        <ProjectImage src={project.image} alt={project.title} />
-        <ProjectTitle>{project.title}</ProjectTitle>
-        <ProjectDescription>{project.description}</ProjectDescription>
-      </ProjectCard>
-    ))}
+    <ProjectCard>
+      <ProjectImage src={project1} alt="Project 1" />
+      <ProjectTitle>Project 1</ProjectTitle>
+      <ProjectDescription>This is a description of Project 1.</ProjectDescription>
+    </ProjectCard>
+    <ProjectCard>
+      <ProjectImage src={project2} alt="Project 2" />
+      <ProjectTitle>Project 2</ProjectTitle>
+      <ProjectDescription>This is a description of Project 2.</ProjectDescription>
+    </ProjectCard>
   </ProjectsContainer>
 );
 
