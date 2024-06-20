@@ -13,6 +13,13 @@ export const ProjectCard = styled.div`
   margin: 20px 0;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+`;
+
+export const ProjectImage = styled.img`
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 `;
 
 export const ProjectTitle = styled.h3`
